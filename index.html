@@ -7,7 +7,7 @@
     .box {
       height: 400px;
       width: 500px;
-      border: 1px solid black;
+      border: 1px solid rgba(96, 94, 94, 0.6);
     }
 
     .text {
@@ -17,7 +17,7 @@
       word-spacing: 2px;
     }
 
-    .try-now {
+    .try-now-box {
       height: 50px;
       width: 80%;
       border-radius: 25px;
@@ -31,16 +31,6 @@
       margin: 5% 10%;
     }
 
-    #text-1 {
-      font-size: 38px;
-      color: rgba(0, 0, 0, 0.6)
-    }
-
-    #text-2 {
-      font-size: 18px;
-      color: rgba(0, 0, 0, 0.5)
-    }
-
     #try-now-text {
       font-size: 24px;
       text-align: center;
@@ -48,7 +38,17 @@
       padding-top: 10px
     }
 
-    #text-4 {
+    #introduction {
+      font-size: 38px;
+      color: rgba(0, 0, 0, 0.6)
+    }
+
+    #description {
+      font-size: 18px;
+      color: rgba(0, 0, 0, 0.5)
+    }
+
+    #terms-and-condition {
       font-size: 15px;
       color: rgba(0, 0, 0, 0.4);
     }
@@ -57,19 +57,24 @@
 
 <body>
   <div class="box">
-    <p class="text" id="text-1">Build your first chatbot in 10 minutes!</p>
-    <div id="line"> </div>
-    <p class="text" id="text-2">Have a bot answering questions from customers on
+    <p class="text" id="introduction">Build your first chatbot in 10 minutes!</p>
+
+    <div id="line"></div>
+
+    <p class="text" id="description">Have a bot answering questions from customers on
       your website within 10
       minutes of signing up for
       ChatBot.</p>
-    <div class="try-now">
+
+    <div class="try-now-box">
       <p class="text" id="try-now-text">TRY NOW →</p>
     </div>
-    <p class="text" id="text-4">By clicking try now you create an account and
+
+    <p class="text" id="terms-and-condition">By clicking try now you create an account and
       agree
       to our Terms and Conditions and Privacy Policy
     </p>
+
   </div>
 </body>
 

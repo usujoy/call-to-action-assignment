@@ -27,37 +27,50 @@
 
     #line {
       width: 50px;
-      border-bottom: 1px solid black;
-    }
-
-    #margin {
+      border-bottom: 2px solid black;
       margin: 5% 10%;
-
     }
 
     #text-1 {
       font-size: 38px;
-      color: rgba(0, 0, 0, 0.8)
+      color: rgba(0, 0, 0, 0.6)
+    }
+
+    #text-2 {
+      font-size: 18px;
+      color: rgba(0, 0, 0, 0.5)
+    }
+
+    #try-now-text {
+      font-size: 24px;
+      text-align: center;
+      color: white;
+      padding-top: 10px
+    }
+
+    #text-4 {
+      font-size: 15px;
+      color: rgba(0, 0, 0, 0.4);
     }
   </style>
 </head>
 
 <body>
-  <article class="box">
+  <div class="box">
     <p class="text" id="text-1">Build your first chatbot in 10 minutes!</p>
     <div id="line"> </div>
-    <p class="text" style="font-size: 18px; color: rgba(0,0,0,0.6);">Have a bot answering questions from customers on
+    <p class="text" id="text-2">Have a bot answering questions from customers on
       your website within 10
       minutes of signing up for
       ChatBot.</p>
     <div class="try-now">
-      <p class="text" style="text-align: center; color: white; margin: 5% 10%;">TRY NOW -></p>
+      <p class="text" id="try-now-text">TRY NOW →</p>
     </div>
-    <p class="text" style="font-size: 15px; color: rgba(0,0,0,0.5);">By clicking try now you create an account and
+    <p class="text" id="text-4">By clicking try now you create an account and
       agree
       to our Terms and Conditions and Privacy Policy
     </p>
-  </article>
+  </div>
 </body>
 
 </html>
